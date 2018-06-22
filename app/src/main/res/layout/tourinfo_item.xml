@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="35dp"
+        app:cardBackgroundColor="#efa383"
+        app:cardElevation="10dp">
+        <ImageView
+            android:id="@+id/tourimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="200dp"
+        android:text="Name"
+        android:textSize="30dp"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="350dp"
+        app:cardBackgroundColor="#efa383"
+        app:cardElevation="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tourinfo"
+            android:text="ㅎㅇ"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

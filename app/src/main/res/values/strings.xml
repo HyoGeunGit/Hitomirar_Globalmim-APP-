@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Trendrr</string>
+    <string name="navigation_drawer_open">aaa</string>
+    <string name="navigation_drawer_close">bbb</string>
+</resources>
